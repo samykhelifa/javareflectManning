@@ -1,12 +1,10 @@
-public class HelloWorld {
+class A{ 
+      void printName(){
+            System.out.println(this.getClass().getName()); }}
+public class HelloWorld extends A {
  public static void main(String[] args){
-     HelloWorld hw = new HelloWorld() ;
+     A hw = new HelloWorld() ;
      hw.printName();    
    }
-public void printName() {        
-
-System.out.println(this.getClass().getName());    
-
-}
 
 }
